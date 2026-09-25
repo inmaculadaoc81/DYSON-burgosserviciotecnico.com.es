@@ -1,7 +1,7 @@
 :root{
-  --green:#C2185B;
-  --green-dark:#9C1248;
-  --green-darker:#5E0B2C;
+  --green:#B4532A;
+  --green-dark:#8C3E1D;
+  --green-darker:#5A2712;
   --dark:#16161A;
   --dark-2:#0D0D10;
   --bg-light-green:#F6F5F7;
@@ -9,7 +9,7 @@
   --text-dark:#1A1A1F;
   --text-gray:#5E5F68;
   --text-gray-light:#878892;
-  --border-light:#E6E3E8;
+  --border-light:#E6E3E0;
   --white:#ffffff;
 }
 *{box-sizing:border-box;margin:0;padding:0;}
@@ -87,14 +87,14 @@ svg.ic.filled{fill:currentColor;stroke:none;}
   white-space:nowrap;
 }
 .btn-primary{
-  background:linear-gradient(145deg,#E8558C 0%,var(--green) 55%,var(--green-dark) 100%);
+  background:linear-gradient(145deg,#DA7A4A 0%,var(--green) 55%,var(--green-dark) 100%);
   color:#fff;
   border:1px solid rgba(255,255,255,.2);
-  box-shadow:0 4px 20px rgba(194,24,91,.35), 0 1px 0 rgba(255,255,255,.25) inset;
+  box-shadow:0 4px 20px rgba(180,83,42,.35), 0 1px 0 rgba(255,255,255,.25) inset;
 }
 .btn-primary:hover{
   transform:translateY(-2px);
-  box-shadow:0 10px 28px rgba(194,24,91,.45), 0 1px 0 rgba(255,255,255,.25) inset;
+  box-shadow:0 10px 28px rgba(180,83,42,.45), 0 1px 0 rgba(255,255,255,.25) inset;
 }
 .btn-outline{
   background:#fff;
@@ -170,7 +170,7 @@ nav.main-nav a.active::after{
   width:640px;
   height:640px;
   max-width:70vw;
-  background:radial-gradient(circle, rgba(194,24,91,.32) 0%, rgba(194,24,91,.12) 45%, transparent 70%);
+  background:radial-gradient(circle, rgba(180,83,42,.32) 0%, rgba(180,83,42,.12) 45%, transparent 70%);
   filter:blur(50px);
   z-index:0;
   pointer-events:none;
@@ -199,8 +199,8 @@ nav.main-nav a.active::after{
   inset:0;
   z-index:0;
   background-image:
-    linear-gradient(rgba(194,24,91,.1) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(194,24,91,.1) 1px, transparent 1px);
+    linear-gradient(rgba(180,83,42,.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(180,83,42,.1) 1px, transparent 1px);
   background-size:42px 42px;
   -webkit-mask-image:radial-gradient(ellipse 70% 60% at 50% 38%, transparent 20%, #000 100%);
   mask-image:radial-gradient(ellipse 70% 60% at 50% 38%, transparent 20%, #000 100%);
@@ -341,8 +341,8 @@ nav.main-nav a.active::after{
   font-size:26px;
 }
 .reviews-text{flex:1;min-width:220px;}
-.reviews-text .eyebrow{justify-content:flex-start;color:#FF6FA8;margin-bottom:8px;}
-.reviews-text .eyebrow .line{background:#FF6FA8;}
+.reviews-text .eyebrow{justify-content:flex-start;color:#F0955F;margin-bottom:8px;}
+.reviews-text .eyebrow .line{background:#F0955F;}
 .reviews-text h3{font-family:'Poppins',sans-serif;font-size:21px;font-weight:800;margin-bottom:6px;}
 .reviews-text p{color:#C9CCD2;font-size:14px;}
 @media (max-width:640px){
@@ -480,10 +480,10 @@ nav.main-nav a.active::after{
 .why-eyebrow{
   display:flex;align-items:center;gap:10px;
   font-size:13px;font-weight:700;letter-spacing:1px;text-transform:uppercase;
-  color:#FF6FA8;
+  color:#F0955F;
   margin-bottom:16px;
 }
-.why-eyebrow .line{width:28px;height:2px;background:#FF6FA8;display:inline-block;}
+.why-eyebrow .line{width:28px;height:2px;background:#F0955F;display:inline-block;}
 .why-us h2{
   font-size:32px;
   font-weight:800;
@@ -506,7 +506,7 @@ nav.main-nav a.active::after{
   border-radius:10px;
   background:rgba(255,255,255,.08);
   display:flex;align-items:center;justify-content:center;
-  color:#FF6FA8;
+  color:#F0955F;
   font-size:19px;
 }
 .why-item h4{
@@ -548,7 +548,7 @@ nav.main-nav a.active::after{
   font-size:18px;
   display:flex;align-items:center;justify-content:center;
   margin-bottom:18px;
-  box-shadow:0 8px 18px rgba(194,24,91,.3);
+  box-shadow:0 8px 18px rgba(180,83,42,.3);
 }
 .how-step h4{
   font-size:15.5px;
@@ -647,7 +647,7 @@ nav.main-nav a.active::after{
   color:var(--green);
 }
 .cta-icon-box:nth-child(1){transform:translateY(6px) rotate(-4deg);z-index:1;}
-.cta-icon-box:nth-child(2){transform:translateX(-14px) translateY(-6px) rotate(4deg);color:#9C1248;}
+.cta-icon-box:nth-child(2){transform:translateX(-14px) translateY(-6px) rotate(4deg);color:#8C3E1D;}
 
 /* ===== CONTACT FORM + MAP ===== */
 .contact-panel{
@@ -691,7 +691,7 @@ nav.main-nav a.active::after{
 #contact-form input:not([type="checkbox"]):focus,#contact-form textarea:focus{
   outline:none;
   border-color:var(--green);
-  box-shadow:0 0 0 3px rgba(194,24,91,.15);
+  box-shadow:0 0 0 3px rgba(180,83,42,.15);
   background:#fff;
 }
 #contact-form textarea{grid-column:1/-1;min-height:110px;resize:vertical;}
@@ -843,7 +843,7 @@ footer{
   justify-content:center;
   color:#fff;
   font-size:22px;
-  box-shadow:0 4px 18px rgba(194,24,91,.45);
+  box-shadow:0 4px 18px rgba(180,83,42,.45);
   transition:background .2s ease;
 }
 .floating-cta:hover{background:var(--green-dark);}
